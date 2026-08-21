@@ -8,3 +8,5 @@
 # Stray installer artifacts
 aws/
 awscliv2.zip
+
+.gitignore

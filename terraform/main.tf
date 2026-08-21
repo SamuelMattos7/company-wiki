@@ -45,7 +45,10 @@ resource "aws_iam_policy" "wiki_access" {
             {
                 Sid      = "ListBucketOnly"
                 Effect   = "Allow"
-                Action   = "s3:ListBucket"
+                Action   = [
+                    "s3:ListBucket",
+                    "s3:ListBucketVersions"
+                ]
                 Resource = aws_s3_bucket.wiki.arn  
 
             },
