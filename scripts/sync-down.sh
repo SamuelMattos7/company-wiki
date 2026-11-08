@@ -1,8 +1,16 @@
+#!/usr/bin/env bash
 set -euo pipefail
 
-source .env
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+if [[ -f .env ]]; then
+    source .env
+    export AWS_PROFILE
+fi
+: "${BUCKET:?Set BUCKET in the environment or in .env}"
 
-aws s3 sync "s3://$BUCKET/raw" ./raw --profile "$PROFILE"
-aws s3 sync "s3://$BUCKET/wiki" ./wiki --profile "$PROFILE"
-
-echo "Sync down from s3://$BUCKET"
+profile=()
+if [[ -n "${PROFILE:-}" ]]; then
+    profile=(--profile "$PROFILE")
+fi
+aws s3 sync "s3://$BUCKET/raw" ./raw "${profile[@]}"
+aws s3 sync "s3://$BUCKET/wiki" ./wiki "${profile[@]}"

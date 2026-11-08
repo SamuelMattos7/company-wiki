@@ -16,7 +16,7 @@ NVIDIA's data center GPU architecture. Within the sources in this repo, first di
 - Calendar Q1 2025 (fiscal Q1 FY2026): revenue ramp extended beyond large CSPs to consumer internet companies and regional CSPs; large CSPs just under 50% of Data Center revenue [direct, source: raw/fillings/nvda-20250427.pdf]
 - Calendar Q2 2025 (fiscal Q2 FY2026): Blackwell grew 17% sequentially; transition to [[wiki/products/blackwell-ultra]] began [direct, source: raw/fillings/nvda-20250727.pdf]
 - Calendar Q3 2025 (fiscal Q3 FY2026): continued strong demand; Blackwell architectures collectively became the majority of Data Center revenue [direct, source: raw/fillings/nvda-20251026.pdf]
-- Calendar Q1 2026 (fiscal Q1 FY2027): Blackwell accounted for the majority of system shipments; Blackwell 300 ramp drove Data Center growth [direct, source: raw/nvda-20260426.pdf]
+- Calendar Q1 2026 (fiscal Q1 FY2027): Blackwell accounted for the majority of system shipments; Blackwell 300 ramp drove Data Center growth [direct, source: raw/fillings/nvda-20260426.pdf]
 
 ## Notes
 

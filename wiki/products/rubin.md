@@ -13,8 +13,8 @@ NVIDIA's next data center platform after [[wiki/products/blackwell]]. First ment
 
 ## Status
 
-- Expected to start shipping in the second half of fiscal year 2027 (roughly calendar H2 2026) [direct, source: raw/nvda-20260426.pdf]
-- NVIDIA flags architecture bring-up complexity as a source of potential production delays, revenue volatility, and inventory provisions around the Rubin transition [direct, source: raw/nvda-20260426.pdf]
+- Expected to start shipping in the second half of fiscal year 2027 (roughly calendar H2 2026) [direct, source: raw/fillings/nvda-20260426.pdf]
+- NVIDIA flags architecture bring-up complexity as a source of potential production delays, revenue volatility, and inventory provisions around the Rubin transition [direct, source: raw/fillings/nvda-20260426.pdf]
 
 ## Notes
 

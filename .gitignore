@@ -9,4 +9,8 @@
 aws/
 awscliv2.zip
 
-.gitignore
+# Local sync settings and Python caches
+.env
+.env.*
+!.env.example
+__pycache__/
