@@ -1,0 +1,37 @@
+schema_version = 1
+name = "Semiconductors"
+
+[research]
+coverage = '''| Category | Companies |
+|---|---|
+| Semicap | ASML, AMAT, LRCX, TOELY, KLAC, ASMIY, DINRF |
+| Fabless | NVDA, AVGO, AMD, QCOM, MRVL, MPWR; watchlist: LSCC, ALAB, Cerebras |
+| IDM | INTC (Intel Foundry as separate sub-entity), MU, Samsung, SK Hynix, TXN, ADI, ON; watchlist: NXP, Infineon, STM |
+| Foundry | TSM, GFS, UMC, SMIC, TSEM |
+
+Anything outside this list gets `status: watchlist`.'''
+page_conventions = '''Every wiki page starts with YAML frontmatter:
+
+**`company`** — `type: company`, `ticker`, `sector: semicap|fabless|idm|foundry`, `status: active|watchlist|inactive`, `updated`, optionally `fiscal_offset`, `reporting_currency`
+**`quarter`** — `type: quarter`, `company`, `fiscal_period: Q2-2026`, `period_end`, `source: raw/...`, `reporting_currency`, `updated`, `confidence: direct`, `restated`, optionally `ma_events`, `superseded_by`
+**`product`** — `type: product`, `company`, `category: gpu|cpu|asic|memory|foundry-process|other`, `status: announced|shipping|eol`, `first_mentioned`, `updated`
+**`theme`** — `type: theme`, `updated`, `related_companies`
+
+Use **calendar-quarter labels** in filenames/frontmatter regardless of source doc labels (e.g. `2026-q2`). Note fiscal offset on the `company` page if different.
+
+## GAAP vs. non-GAAP
+
+Every headline financial figure on a `quarter` page must specify which basis:
+
+```
+Gross margin (non-GAAP): 75.1% [direct, source: ...]
+Gross margin (GAAP): 72.8% [direct, source: ...]
+```
+
+If the source only provides one basis, state that explicitly. Default for cross-page comparisons: non-GAAP.'''
+
+[demo]
+source = "raw/synthetic/darc-2026-q1.md"
+company = "wiki/companies/darc.md"
+quarter = "wiki/quarters/darc-2026-q1.md"
+answer = "examples/semiconductors/answer.md"

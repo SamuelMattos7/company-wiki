@@ -10,22 +10,22 @@ updated: 2026-08-20
 
 # NVIDIA Corporation (NVDA)
 
-Fabless semiconductor company headquartered in Santa Clara, California; incorporated in California in April 1993 and reincorporated in Delaware in April 1998 [direct, source: raw/nvda-20260426.pdf]. NVIDIA describes itself as a data center-scale AI infrastructure company [direct, source: raw/nvda-20260426.pdf].
+Fabless semiconductor company headquartered in Santa Clara, California; incorporated in California in April 1993 and reincorporated in Delaware in April 1998 [direct, source: raw/fillings/nvda-20260426.pdf]. NVIDIA describes itself as a data center-scale AI infrastructure company [direct, source: raw/fillings/nvda-20260426.pdf].
 
 ## Fiscal calendar
 
-- Fiscal year ends on the last Sunday in January [direct, source: raw/nvda-20260426.pdf].
-- Fiscal year 2027 is a 53-week year; fiscal year 2026 was a 52-week year; Q4 FY2027 will be a 14-week quarter [direct, source: raw/nvda-20260426.pdf].
-- Because of this year-end, fiscal periods lead calendar quarters by one year (fiscal Q1 FY2027 ended April 26, 2026) [synthesis, from: raw/nvda-20260426.pdf]. Wiki pages for NVDA use calendar-quarter labels per AGENTS.md.
+- Fiscal year ends on the last Sunday in January [direct, source: raw/fillings/nvda-20260426.pdf].
+- Fiscal year 2027 is a 53-week year; fiscal year 2026 was a 52-week year; Q4 FY2027 will be a 14-week quarter [direct, source: raw/fillings/nvda-20260426.pdf].
+- Because of this year-end, fiscal periods lead calendar quarters by one year (fiscal Q1 FY2027 ended April 26, 2026) [synthesis, from: raw/fillings/nvda-20260426.pdf]. Wiki pages for NVDA use calendar-quarter labels per AGENTS.md.
 
 ## Segments
 
-Two reportable segments [direct, source: raw/nvda-20260426.pdf]:
+Two reportable segments [direct, source: raw/fillings/nvda-20260426.pdf]:
 
-- **Compute & Networking** — Data Center accelerated computing and networking platforms, AI solutions and software, and automotive platforms including autonomous/EV solutions [direct, source: raw/nvda-20260426.pdf].
-- **Graphics** — GeForce GPUs for gaming and PCs, and Quadro/NVIDIA RTX GPUs for enterprise workstation graphics [direct, source: raw/nvda-20260426.pdf].
+- **Compute & Networking** — Data Center accelerated computing and networking platforms, AI solutions and software, and automotive platforms including autonomous/EV solutions [direct, source: raw/fillings/nvda-20260426.pdf].
+- **Graphics** — GeForce GPUs for gaming and PCs, and Quadro/NVIDIA RTX GPUs for enterprise workstation graphics [direct, source: raw/fillings/nvda-20260426.pdf].
 
-Beginning in fiscal Q1 FY2027 (calendar Q1 2026), NVIDIA also reports revenue by market platform — Data Center (sub-markets: Hyperscale; AI Clouds, Industrial & Enterprise) and Edge Computing — with prior periods recast [direct, source: raw/nvda-20260426.pdf].
+Beginning in fiscal Q1 FY2027 (calendar Q1 2026), NVIDIA also reports revenue by market platform — Data Center (sub-markets: Hyperscale; AI Clouds, Industrial & Enterprise) and Edge Computing — with prior periods recast [direct, source: raw/fillings/nvda-20260426.pdf].
 
 ## Quarter index
 
@@ -48,11 +48,11 @@ Comparability caveats across these quarters [assessment]:
 
 Product pages: [[wiki/products/blackwell]] · [[wiki/products/blackwell-ultra]] · [[wiki/products/h20]] · [[wiki/products/rubin]]
 
-- **Blackwell** — majority of system shipments in calendar Q1 2026; Blackwell 300 ramp drove Data Center growth [direct, source: raw/nvda-20260426.pdf].
-- **Rubin** — expected to start shipping in the second half of fiscal year 2027 (roughly calendar H2 2026) [direct, source: raw/nvda-20260426.pdf].
-- **H200** — beginning February 2026, USG licenses allow shipment of small amounts to specific China-based customers; no revenue generated under the program as of the filing, and units shipped under it are subject to a 25% tariff upon importation into the United States [direct, source: raw/nvda-20260426.pdf].
+- **Blackwell** — majority of system shipments in calendar Q1 2026; Blackwell 300 ramp drove Data Center growth [direct, source: raw/fillings/nvda-20260426.pdf].
+- **Rubin** — expected to start shipping in the second half of fiscal year 2027 (roughly calendar H2 2026) [direct, source: raw/fillings/nvda-20260426.pdf].
+- **H200** — beginning February 2026, USG licenses allow shipment of small amounts to specific China-based customers; no revenue generated under the program as of the filing, and units shipped under it are subject to a 25% tariff upon importation into the United States [direct, source: raw/fillings/nvda-20260426.pdf].
 
 ## Notes
 
 - 10-Q figures are GAAP only; this source provides no non-GAAP basis.
-- China data center exposure: no Data Center Hopper shipments to China occurred in calendar Q1 2026, vs $4.6B in fiscal Q1 FY2026 [direct, source: raw/nvda-20260426.pdf]; NVIDIA states it is effectively foreclosed from China's data center compute market under current export controls [direct, source: raw/nvda-20260426.pdf].
+- China data center exposure: no Data Center Hopper shipments to China occurred in calendar Q1 2026, vs $4.6B in fiscal Q1 FY2026 [direct, source: raw/fillings/nvda-20260426.pdf]; NVIDIA states it is effectively foreclosed from China's data center compute market under current export controls [direct, source: raw/fillings/nvda-20260426.pdf].

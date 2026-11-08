@@ -1,0 +1,14 @@
+schema_version = 1
+name = "Water utilities"
+
+[research]
+coverage = '''Track regulated water utilities. The fictional DFWU is the only example. Use watchlist for other companies until coverage is approved.'''
+page_conventions = '''Use company and quarter pages with the shared frontmatter fields. Set company sector to regulated-water and keep calendar-quarter filenames.
+On quarter pages, capture reported operating revenue, water distribution loss and the reporting scope. Distinguish percentage changes from percentage-point changes.
+Record capital projects or regulatory decisions only where sourced. Use a theme page for cross-utility topics. Product pages are optional.'''
+
+[demo]
+source = "raw/synthetic/dfwu-2026-q1.md"
+company = "wiki/companies/dfwu.md"
+quarter = "wiki/quarters/dfwu-2026-q1.md"
+answer = "examples/water-utilities/answer.md"

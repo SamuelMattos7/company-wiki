@@ -1,9 +1,7 @@
-output "access_key_id" {
-  value = aws_iam_access_key.wiki_agent.id
+output "bucket_name" {
+  value = aws_s3_bucket.wiki.id
 }
 
-output "secret_access_key" {
-    value =  aws_iam_access_key.wiki_agent.secret
-    sensitive = true
+output "wiki_access_policy_arn" {
+  value = aws_iam_policy.wiki_access.arn
 }
-
